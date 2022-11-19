@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18285EF229290187003F95A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285EF129290187003F95A9 /* AppDelegate.swift */; };
+		18285EF429290187003F95A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285EF329290187003F95A9 /* SceneDelegate.swift */; };
+		18285EF629290187003F95A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285EF529290187003F95A9 /* ViewController.swift */; };
+		18285EF929290187003F95A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18285EF729290187003F95A9 /* Main.storyboard */; };
+		18285EFC29290187003F95A9 /* KisilerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18285EFA29290187003F95A9 /* KisilerApp.xcdatamodeld */; };
+		18285EFE29290188003F95A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18285EFD29290188003F95A9 /* Assets.xcassets */; };
+		18285F0129290188003F95A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18285EFF29290188003F95A9 /* LaunchScreen.storyboard */; };
+		18285F0C29290188003F95A9 /* KisilerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F0B29290188003F95A9 /* KisilerAppTests.swift */; };
+		18285F1629290188003F95A9 /* KisilerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F1529290188003F95A9 /* KisilerAppUITests.swift */; };
+		18285F1829290188003F95A9 /* KisilerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F1729290188003F95A9 /* KisilerAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18285F0829290188003F95A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18285EE629290187003F95A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18285EED29290187003F95A9;
+			remoteInfo = KisilerApp;
+		};
+		18285F1229290188003F95A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18285EE629290187003F95A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18285EED29290187003F95A9;
+			remoteInfo = KisilerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18285EEE29290187003F95A9 /* KisilerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18285EF129290187003F95A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18285EF329290187003F95A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18285EF529290187003F95A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18285EF829290187003F95A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18285EFB29290187003F95A9 /* KisilerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KisilerApp.xcdatamodel; sourceTree = "<group>"; };
+		18285EFD29290188003F95A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18285F0029290188003F95A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18285F0229290188003F95A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18285F0729290188003F95A9 /* KisilerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18285F0B29290188003F95A9 /* KisilerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerAppTests.swift; sourceTree = "<group>"; };
+		18285F1129290188003F95A9 /* KisilerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18285F1529290188003F95A9 /* KisilerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerAppUITests.swift; sourceTree = "<group>"; };
+		18285F1729290188003F95A9 /* KisilerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18285EEB29290187003F95A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0429290188003F95A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0E29290188003F95A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18285EE529290187003F95A9 = {
+			isa = PBXGroup;
+			children = (
+				18285EF029290187003F95A9 /* KisilerApp */,
+				18285F0A29290188003F95A9 /* KisilerAppTests */,
+				18285F1429290188003F95A9 /* KisilerAppUITests */,
+				18285EEF29290187003F95A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18285EEF29290187003F95A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18285EEE29290187003F95A9 /* KisilerApp.app */,
+				18285F0729290188003F95A9 /* KisilerAppTests.xctest */,
+				18285F1129290188003F95A9 /* KisilerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18285EF029290187003F95A9 /* KisilerApp */ = {
+			isa = PBXGroup;
+			children = (
+				18285EF129290187003F95A9 /* AppDelegate.swift */,
+				18285EF329290187003F95A9 /* SceneDelegate.swift */,
+				18285EF529290187003F95A9 /* ViewController.swift */,
+				18285EF729290187003F95A9 /* Main.storyboard */,
+				18285EFD29290188003F95A9 /* Assets.xcassets */,
+				18285EFF29290188003F95A9 /* LaunchScreen.storyboard */,
+				18285F0229290188003F95A9 /* Info.plist */,
+				18285EFA29290187003F95A9 /* KisilerApp.xcdatamodeld */,
+			);
+			path = KisilerApp;
+			sourceTree = "<group>";
+		};
+		18285F0A29290188003F95A9 /* KisilerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18285F0B29290188003F95A9 /* KisilerAppTests.swift */,
+			);
+			path = KisilerAppTests;
+			sourceTree = "<group>";
+		};
+		18285F1429290188003F95A9 /* KisilerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18285F1529290188003F95A9 /* KisilerAppUITests.swift */,
+				18285F1729290188003F95A9 /* KisilerAppUITestsLaunchTests.swift */,
+			);
+			path = KisilerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18285EED29290187003F95A9 /* KisilerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18285F1B29290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerApp" */;
+			buildPhases = (
+				18285EEA29290187003F95A9 /* Sources */,
+				18285EEB29290187003F95A9 /* Frameworks */,
+				18285EEC29290187003F95A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KisilerApp;
+			productName = KisilerApp;
+			productReference = 18285EEE29290187003F95A9 /* KisilerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18285F0629290188003F95A9 /* KisilerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18285F1E29290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerAppTests" */;
+			buildPhases = (
+				18285F0329290188003F95A9 /* Sources */,
+				18285F0429290188003F95A9 /* Frameworks */,
+				18285F0529290188003F95A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18285F0929290188003F95A9 /* PBXTargetDependency */,
+			);
+			name = KisilerAppTests;
+			productName = KisilerAppTests;
+			productReference = 18285F0729290188003F95A9 /* KisilerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18285F1029290188003F95A9 /* KisilerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18285F2129290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerAppUITests" */;
+			buildPhases = (
+				18285F0D29290188003F95A9 /* Sources */,
+				18285F0E29290188003F95A9 /* Frameworks */,
+				18285F0F29290188003F95A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18285F1329290188003F95A9 /* PBXTargetDependency */,
+			);
+			name = KisilerAppUITests;
+			productName = KisilerAppUITests;
+			productReference = 18285F1129290188003F95A9 /* KisilerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18285EE629290187003F95A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					18285EED29290187003F95A9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					18285F0629290188003F95A9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 18285EED29290187003F95A9;
+					};
+					18285F1029290188003F95A9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 18285EED29290187003F95A9;
+					};
+				};
+			};
+			buildConfigurationList = 18285EE929290187003F95A9 /* Build configuration list for PBXProject "KisilerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18285EE529290187003F95A9;
+			productRefGroup = 18285EEF29290187003F95A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18285EED29290187003F95A9 /* KisilerApp */,
+				18285F0629290188003F95A9 /* KisilerAppTests */,
+				18285F1029290188003F95A9 /* KisilerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18285EEC29290187003F95A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18285F0129290188003F95A9 /* LaunchScreen.storyboard in Resources */,
+				18285EFE29290188003F95A9 /* Assets.xcassets in Resources */,
+				18285EF929290187003F95A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0529290188003F95A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0F29290188003F95A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18285EEA29290187003F95A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18285EF629290187003F95A9 /* ViewController.swift in Sources */,
+				18285EF229290187003F95A9 /* AppDelegate.swift in Sources */,
+				18285EF429290187003F95A9 /* SceneDelegate.swift in Sources */,
+				18285EFC29290187003F95A9 /* KisilerApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0329290188003F95A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18285F0C29290188003F95A9 /* KisilerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18285F0D29290188003F95A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18285F1829290188003F95A9 /* KisilerAppUITestsLaunchTests.swift in Sources */,
+				18285F1629290188003F95A9 /* KisilerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18285F0929290188003F95A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18285EED29290187003F95A9 /* KisilerApp */;
+			targetProxy = 18285F0829290188003F95A9 /* PBXContainerItemProxy */;
+		};
+		18285F1329290188003F95A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18285EED29290187003F95A9 /* KisilerApp */;
+			targetProxy = 18285F1229290188003F95A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18285EF729290187003F95A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18285EF829290187003F95A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18285EFF29290188003F95A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18285F0029290188003F95A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18285F1929290188003F95A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18285F1A29290188003F95A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18285F1C29290188003F95A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KisilerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18285F1D29290188003F95A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KisilerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18285F1F29290188003F95A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisilerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KisilerApp";
+			};
+			name = Debug;
+		};
+		18285F2029290188003F95A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KisilerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KisilerApp";
+			};
+			name = Release;
+		};
+		18285F2229290188003F95A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KisilerApp;
+			};
+			name = Debug;
+		};
+		18285F2329290188003F95A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4N2C39FB2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.KisilerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KisilerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18285EE929290187003F95A9 /* Build configuration list for PBXProject "KisilerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18285F1929290188003F95A9 /* Debug */,
+				18285F1A29290188003F95A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18285F1B29290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18285F1C29290188003F95A9 /* Debug */,
+				18285F1D29290188003F95A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18285F1E29290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18285F1F29290188003F95A9 /* Debug */,
+				18285F2029290188003F95A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18285F2129290188003F95A9 /* Build configuration list for PBXNativeTarget "KisilerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18285F2229290188003F95A9 /* Debug */,
+				18285F2329290188003F95A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18285EFA29290187003F95A9 /* KisilerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18285EFB29290187003F95A9 /* KisilerApp.xcdatamodel */,
+			);
+			currentVersion = 18285EFB29290187003F95A9 /* KisilerApp.xcdatamodel */;
+			path = KisilerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18285EE629290187003F95A9 /* Project object */;
+}
