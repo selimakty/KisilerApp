@@ -17,6 +17,10 @@
 		18285F0C29290188003F95A9 /* KisilerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F0B29290188003F95A9 /* KisilerAppTests.swift */; };
 		18285F1629290188003F95A9 /* KisilerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F1529290188003F95A9 /* KisilerAppUITests.swift */; };
 		18285F1829290188003F95A9 /* KisilerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F1729290188003F95A9 /* KisilerAppUITestsLaunchTests.swift */; };
+		18285F2529294440003F95A9 /* KisilerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F2429294440003F95A9 /* KisilerTableViewCell.swift */; };
+		18285F27292947CC003F95A9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F26292947CC003F95A9 /* AddViewController.swift */; };
+		18285F29292947D8003F95A9 /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F28292947D8003F95A9 /* UpgradeViewController.swift */; };
+		18285F2B292947E5003F95A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18285F2A292947E5003F95A9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		18285F1129290188003F95A9 /* KisilerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KisilerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18285F1529290188003F95A9 /* KisilerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerAppUITests.swift; sourceTree = "<group>"; };
 		18285F1729290188003F95A9 /* KisilerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18285F2429294440003F95A9 /* KisilerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerTableViewCell.swift; sourceTree = "<group>"; };
+		18285F26292947CC003F95A9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		18285F28292947D8003F95A9 /* UpgradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
+		18285F2A292947E5003F95A9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				18285EFF29290188003F95A9 /* LaunchScreen.storyboard */,
 				18285F0229290188003F95A9 /* Info.plist */,
 				18285EFA29290187003F95A9 /* KisilerApp.xcdatamodeld */,
+				18285F2429294440003F95A9 /* KisilerTableViewCell.swift */,
+				18285F26292947CC003F95A9 /* AddViewController.swift */,
+				18285F28292947D8003F95A9 /* UpgradeViewController.swift */,
+				18285F2A292947E5003F95A9 /* DetailViewController.swift */,
 			);
 			path = KisilerApp;
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			files = (
 				18285EF629290187003F95A9 /* ViewController.swift in Sources */,
 				18285EF229290187003F95A9 /* AppDelegate.swift in Sources */,
+				18285F27292947CC003F95A9 /* AddViewController.swift in Sources */,
 				18285EF429290187003F95A9 /* SceneDelegate.swift in Sources */,
+				18285F2529294440003F95A9 /* KisilerTableViewCell.swift in Sources */,
 				18285EFC29290187003F95A9 /* KisilerApp.xcdatamodeld in Sources */,
+				18285F29292947D8003F95A9 /* UpgradeViewController.swift in Sources */,
+				18285F2B292947E5003F95A9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +494,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
