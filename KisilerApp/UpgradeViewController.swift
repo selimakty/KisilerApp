@@ -32,6 +32,8 @@ class UpgradeViewController: UIViewController {
             k.kisi_numara = numara
             
             appDelegate.saveContext()
+            
+            navigationController?.popViewController(animated: true)
         }
     }
     

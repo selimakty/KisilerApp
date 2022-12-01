@@ -33,6 +33,8 @@ class AddViewController: UIViewController {
             kisi.kisi_numara = numara
             
             appDelegate.saveContext()
+            
+            navigationController?.popViewController(animated: true)
         }
     }
     
